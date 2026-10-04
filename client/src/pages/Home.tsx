@@ -1,21 +1,23 @@
 import { useMemo, useState } from "react";
-import ArrowDownRight from "lucide-react/dist/esm/icons/arrow-down-right.js";
-import ArrowUpRight from "lucide-react/dist/esm/icons/arrow-up-right.js";
-import Check from "lucide-react/dist/esm/icons/check.js";
-import ChevronDown from "lucide-react/dist/esm/icons/chevron-down.js";
-import ChevronRight from "lucide-react/dist/esm/icons/chevron-right.js";
-import Clock3 from "lucide-react/dist/esm/icons/clock-3.js";
-import Crosshair from "lucide-react/dist/esm/icons/crosshair.js";
-import Gauge from "lucide-react/dist/esm/icons/gauge.js";
-import Instagram from "lucide-react/dist/esm/icons/instagram.js";
-import Menu from "lucide-react/dist/esm/icons/menu.js";
-import MessageCircle from "lucide-react/dist/esm/icons/message-circle.js";
-import MoveHorizontal from "lucide-react/dist/esm/icons/move-horizontal.js";
-import Sparkles from "lucide-react/dist/esm/icons/sparkles.js";
-import Star from "lucide-react/dist/esm/icons/star.js";
-import Target from "lucide-react/dist/esm/icons/target.js";
-import Truck from "lucide-react/dist/esm/icons/truck.js";
-import X from "lucide-react/dist/esm/icons/x.js";
+import {
+  ArrowDownRight,
+  ArrowUpRight,
+  Check,
+  ChevronDown,
+  ChevronRight,
+  Clock3,
+  Crosshair,
+  Gauge,
+  Instagram,
+  Menu,
+  MessageCircle,
+  MoveHorizontal,
+  Sparkles,
+  Star,
+  Target,
+  Truck,
+  X,
+} from "lucide-react";
 
 const WHATSAPP = "573133820337";
 const DEFAULT_MESSAGE = "Hola, me interesa cotizar un servicio de latonería/peritaje para mi vehículo.";
