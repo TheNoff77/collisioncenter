@@ -24,7 +24,7 @@ button { cursor:pointer; }
 .nav-cta { display:flex; align-items:center; gap:8px; border:1px solid var(--orange); padding:11px 15px; color:#fff; font-size:11px; font-weight:800; letter-spacing:.04em; transition:background .2s,transform .2s; }.nav-cta:hover { background:var(--orange); transform:translateY(-2px); }
 .nav-mobile-cta,.menu-toggle { display:none; }
 .hero-section { min-height:760px; position:relative; display:flex; align-items:center; isolation:isolate; }
-.hero-image { position:absolute; inset:0; z-index:-3; background:url('/manus-storage/collision-hero_4dd4cb1d.jpg') center/cover no-repeat; }
+.hero-image { position:absolute; inset:0; z-index:-3; background:url('/images/collision-hero.jpg') center/cover no-repeat; }
 .hero-overlay { position:absolute; inset:0; z-index:-2; background:linear-gradient(90deg,rgba(15,17,21,.96) 0%,rgba(15,17,21,.77) 40%,rgba(15,17,21,.2) 100%); }
 .hero-grid { position:absolute; inset:0; z-index:-1; opacity:.16; background-image:linear-gradient(rgba(255,255,255,.18) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.18) 1px,transparent 1px); background-size:72px 72px; mask-image:linear-gradient(90deg,#000,transparent 70%); }
 .hero-content { position:relative; padding-top:86px; display:flex; justify-content:space-between; align-items:center; }
