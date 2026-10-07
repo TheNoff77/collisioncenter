@@ -56,7 +56,7 @@ export default function Home() {
       <header className="nav-wrap">
         <nav className="container nav-bar" aria-label="Navegación principal">
           <a className="brand" href="#inicio" aria-label="Collision Center inicio">
-            <img className="brand-logo" src="/images/collision-center-logo.jpg" alt="Collision Center Premium Car Service" />
+            <img className="brand-logo" src="/images/collision-center-logo-transparent.png" alt="Collision Center Premium Car Service" />
           </a>
           <div className={`nav-links ${menuOpen ? "is-open" : ""}`}>
             {navItems.map(([label, href]) => <a key={href} href={href} onClick={() => setMenuOpen(false)}>{label}</a>)}
@@ -105,7 +105,7 @@ export default function Home() {
           <div className="cases-copy"><span className="section-kicker">EVIDENCIA VISUAL</span><h2>De impacto<br />a <em>impecable.</em></h2><p>La diferencia está en lo que no se nota: medición, preparación y un acabado que respeta la geometría original.</p><div className="case-meta"><span>CASO 014 / TOYOTA 4X4</span><span>REPARACIÓN ESTRUCTURAL</span></div></div>
           <div className="before-after" style={{ "--split": `${beforeAfter}%` } as React.CSSProperties}>
             <img src="/images/collision-hero.jpg" alt="Vehículo terminado con acabado premium" />
-            <div className="before-layer"><img src="/images/collision-workshop.jpg" alt="Proceso de reparación automotriz" /></div>
+            <div className="before-layer"><img src="/images/collision-before.png" alt="Proceso de reparación automotriz" /></div>
             <div className="split-label before-label">PROCESO</div><div className="split-label after-label">RESULTADO</div><div className="split-handle" aria-hidden="true"><MoveHorizontal size={17} /></div>
             <input aria-label="Comparar proceso y resultado" className="compare-range" type="range" min="8" max="92" value={beforeAfter} onChange={(e) => setBeforeAfter(Number(e.target.value))} />
           </div>
@@ -118,7 +118,7 @@ export default function Home() {
           <section id="contacto" className="contact-section"><div className="container contact-layout"><div><span className="section-kicker">VISÍTENOS EN YOPAL</span><h2>Listos para<br /><em>recibirlo.</em></h2></div><div className="contact-details"><div className="contact-line"><span>DIRECCIÓN</span><b>Cra. 18 #21-18<br />Yopal, Casanare</b></div><div className="contact-line"><span>HORARIO</span><b>Lun—Sáb · 7:30 am—6:00 pm</b></div><div className="contact-line"><span>CONTACTO DIRECTO</span><a href="tel:+573133820337"><b>+57 313 382 0337</b> <ArrowUpRight size={16} /></a></div><a className="map-link" href="https://www.google.com/maps/search/?api=1&query=Collision+Center+Yopal+Casanare" target="_blank" rel="noreferrer">Abrir ruta en Google Maps <ArrowUpRight size={16} /></a><a className="map-link" href="https://www.instagram.com/collision_center_yopal/?hl=es" target="_blank" rel="noreferrer">Ver trabajos en Instagram <ArrowUpRight size={16} /></a></div></div></section>
       </main>
 
-          <footer className="footer"><div className="container footer-top"><a className="brand" href="#inicio"><img className="brand-logo" src="/images/collision-center-logo.jpg" alt="Collision Center Premium Car Service" /></a><p>Premium car service.<br />Yopal, Casanare.</p><div className="footer-actions"><a href={whatsapp()} target="_blank" rel="noreferrer"><MessageCircle size={16} /> WhatsApp</a><a href="https://www.facebook.com/rotmanmartinezapolinar/?locale=es_LA" target="_blank" rel="noreferrer"><span aria-hidden="true">f</span> Facebook</a><a href="https://www.instagram.com/collision_center_yopal/?hl=es" target="_blank" rel="noreferrer"><Instagram size={16} /> Instagram</a></div></div><div className="container footer-bottom"><span>© 2026 Collision Center. Todos los derechos reservados.</span><span>Premium car service.</span></div></footer>
+          <footer className="footer"><div className="container footer-top"><a className="brand" href="#inicio"><img className="brand-logo" src="/images/collision-center-logo-transparent.png" alt="Collision Center Premium Car Service" /></a><p>Premium car service.<br />Yopal, Casanare.</p><div className="footer-actions"><a href={whatsapp()} target="_blank" rel="noreferrer"><MessageCircle size={16} /> WhatsApp</a><a href="https://www.facebook.com/rotmanmartinezapolinar/?locale=es_LA" target="_blank" rel="noreferrer"><span aria-hidden="true">f</span> Facebook</a><a href="https://www.instagram.com/collision_center_yopal/?hl=es" target="_blank" rel="noreferrer"><Instagram size={16} /> Instagram</a></div></div><div className="container footer-bottom"><span>© 2026 Collision Center. Todos los derechos reservados.</span><span>Premium car service.</span></div></footer>
       <a className="floating-wa" href={whatsapp()} target="_blank" rel="noreferrer" aria-label="Contactar por WhatsApp"><MessageCircle size={22} /></a>
     </div>
   );
